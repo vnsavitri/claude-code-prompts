@@ -2,30 +2,43 @@
 
 > Independently written prompt templates for building AI coding agents, inspired by patterns observed in Claude Code. System prompts, tool prompts, agent prompts, memory management, and multi-agent coordination.
 
+## Check out [RepoWise](https://github.com/repowise-dev/repowise)
 
-**Every prompt in this repo is independently authored.** We did not copy Anthropic's text. We observed what patterns make a coding agent reliable and wrote our own versions.
+<p align="center">
+  <a href="https://github.com/repowise-dev/repowise">
+    <img src="./assets/repowise-logo.png" alt="RepoWise" width="140" />
+  </a>
+</p>
 
-Not affiliated with Anthropic. See [DISCLAIMER.md](./DISCLAIMER.md).
+**Prompts tell your agent how to behave. [RepoWise](https://github.com/repowise-dev/repowise) tells it what the codebase actually does.**
 
-### Prompts are half the equation. The other half is codebase context.
+Open-source codebase intelligence engine. Auto-generated architecture wikis, dependency graphs, ownership maps, dead code detection, and 9 MCP tools your AI editor can query in real time.
 
-These prompts tell your agent *how* to think. **[RepoWise](https://repowise.dev)** tells it *what the codebase actually does*. It auto-generates architecture wikis, dependency graphs, ownership maps, and dead code reports from any repo, then serves them through 9 MCP tools your AI editor can call in real time. Your agent stops guessing about how modules connect and starts working with actual project knowledge.
+**[GitHub](https://github.com/repowise-dev/repowise)** &nbsp; | &nbsp; [repowise.dev](https://repowise.dev)
 
-```bash
-pip install repowise && repowise init
-```
+Scroll down for Claude Code's prompt patterns. 👇
 
-**[repowise.dev](https://repowise.dev)** | **[GitHub](https://github.com/repowise-dev/repowise)** | Stars welcome
+---
 
 <!-- GitHub repo description: Independently authored prompt templates for AI coding agents — system prompts, tool prompts, agent delegation, memory management, and multi-agent coordination. Informed by observing how Claude Code works in practice. -->
 
 <!-- Suggested GitHub topics: claude-code, claude-code-prompts, claude-prompts, system-prompt, claude-code-system-prompt, prompt-engineering, anthropic-claude, ai-coding-agent, claude-agent, llm-prompts, ai-prompts, cursor-skills, multi-agent, coding-assistant, ai-tools, prompt-templates -->
 
+## Claude Code System Prompts
+
+
+**Every prompt in this repo is independently authored.** We did not copy Anthropic's text. We observed what patterns make a coding agent reliable and wrote our own versions. From the team behind [RepoWise](https://github.com/repowise-dev/repowise).
+
+Not affiliated with Anthropic. See [DISCLAIMER.md](./DISCLAIMER.md).
+
+> **Note**
+> ⭐ Star this repository to stay updated. We analyze each Claude Code release and update the patterns here.
+
 ## What's Inside
 
 | Category | Files | What You Get |
 |----------|-------|--------------|
-| [System prompt](#claude-code-system-prompt) | 1 | Agent identity, safety rules, code style, tool routing, output format |
+| [System prompt](#claude-code-system-prompt-1) | 1 | Agent identity, safety rules, code style, tool routing, output format |
 | [Tool prompts](#claude-code-tool-prompts) | 11 | Shell, file read/edit/write, grep, glob, web search/fetch, agent launcher, ask user, plan mode |
 | [Agent prompts](#claude-code-agent-prompts) | 5 | General purpose, code explorer, solution architect, verification specialist, documentation guide |
 | [Memory prompts](#claude-code-memory-prompts) | 4 | Conversation summarization, session notes, memory extraction, memory consolidation |
@@ -37,10 +50,10 @@ pip install repowise && repowise init
 ## Quick Start
 
 1. Browse the [pattern files](#prompt-engineering-patterns) to understand how production coding agents structure their prompts.
-2. Copy any [complete prompt](#claude-code-system-prompt) into your own agent configuration.
+2. Copy any [complete prompt](#claude-code-system-prompt-1) into your own agent configuration.
 3. Replace `{{PLACEHOLDER}}` values with your stack, tool names, and risk policy.
 4. For Cursor IDE users, drop `skills/` into `~/.cursor/skills-cursor/` for instant integration.
-5. Add codebase context with [RepoWise](https://repowise.dev) so your agent actually understands the project it's working in.
+5. Add codebase context with [RepoWise](https://github.com/repowise-dev/repowise) so your agent actually understands the project it's working in.
 
 ## Prompt Engineering Patterns
 
@@ -124,7 +137,7 @@ No text was copied from Anthropic's codebase. All content is original.
 
 ## Pair With RepoWise for Full-Stack Agent Intelligence
 
-The prompts in this repo handle agent behavior: safety, tool routing, delegation, verification. But behavior without context is like a senior engineer who's never seen the codebase. [RepoWise](https://repowise.dev) fills that gap.
+The prompts in this repo handle agent behavior: safety, tool routing, delegation, verification. But behavior without context is like a senior engineer who's never seen the codebase. [RepoWise](https://github.com/repowise-dev/repowise) fills that gap.
 
 | What you get | How it helps your agent |
 |---|---|
@@ -134,9 +147,9 @@ The prompts in this repo handle agent behavior: safety, tool routing, delegation
 | Dead code detection | Agent avoids modifying unused code paths |
 | 9 MCP tools | Agent queries project knowledge directly from Cursor, Claude Code, or any MCP-compatible editor |
 
-Works with any language, any repo size. One command to start: `repowise init`
+Works with any language, any repo size.
 
-[repowise.dev](https://repowise.dev) | [GitHub](https://github.com/repowise-dev/repowise) | [PyPI](https://pypi.org/project/repowise/)
+**[GitHub](https://github.com/repowise-dev/repowise)** | [repowise.dev](https://repowise.dev)
 
 ## Legal
 
@@ -159,4 +172,4 @@ If this helped you build better AI agents, star the repo so others can find it.
 
 ---
 
-**Built by [RepoWise](https://repowise.dev)** — open-source codebase intelligence for AI agents. Give your agent architecture docs, dependency graphs, and ownership data in one MCP call. [Try it](https://github.com/repowise-dev/repowise).
+**Built by [RepoWise](https://github.com/repowise-dev/repowise)** — open-source codebase intelligence for AI agents ([repowise.dev](https://repowise.dev)).
