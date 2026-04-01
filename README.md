@@ -26,8 +26,9 @@ Scroll down for Claude Code's prompt patterns. 👇
 
 ## Claude Code System Prompts
 
+We studied how Claude Code behaves in practice -- how it structures safety rules, routes tools, delegates to subagents, manages memory -- and wrote our own prompt collection from scratch implementing the same patterns.
 
-**Every prompt in this repo is independently authored.** We did not copy Anthropic's text. We observed what patterns make a coding agent reliable and wrote our own versions. From the team behind [RepoWise](https://github.com/repowise-dev/repowise).
+**Every prompt in this repo is independently authored.** We observed what patterns make a coding agent reliable and wrote our own versions. From the team behind [RepoWise](https://github.com/repowise-dev/repowise).
 
 Not affiliated with Anthropic. See [DISCLAIMER.md](./DISCLAIMER.md).
 
@@ -131,9 +132,9 @@ Drop-in skills for Cursor IDE that implement these patterns directly.
 
 ## Methodology
 
-We studied the prompting patterns used by Claude Code in practice. We identified the behavioral rules, safety patterns, tool-routing strategies, and multi-agent coordination approaches it employs. We then independently authored every prompt in this repository from scratch, implementing the same patterns in our own words.
+We studied how Claude Code behaves in practice and identified the behavioral rules, safety patterns, tool-routing strategies, and multi-agent coordination approaches that make it effective. We then independently authored every prompt in this repository from scratch, implementing the same patterns in our own words.
 
-No text was copied from Anthropic's codebase. All content is original.
+All content is original.
 
 ## Pair With RepoWise for Full-Stack Agent Intelligence
 
@@ -157,7 +158,7 @@ Works with any language, any repo size.
 - [LICENSE](./LICENSE) — MIT for all original content.
 - [CHANGELOG.md](./CHANGELOG.md) — version history.
 
-"Claude Code" is a trademark of Anthropic, used here under nominative fair use to describe the subject matter. This project is independent — we are not Anthropic, and 
+"Claude Code" is a trademark of Anthropic, used here under nominative fair use to describe the subject matter. This project is independent and not affiliated with Anthropic.
 
 ## Contributing
 

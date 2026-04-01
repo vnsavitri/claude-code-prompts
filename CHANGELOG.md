@@ -8,7 +8,6 @@
 - Rewrote README.md with SEO-optimized headings and independent authorship framing.
 - Rewrote DISCLAIMER.md with nominative fair use, independent authorship statement, and DMCA takedown policy.
 - Standardized language to emphasize independent authorship throughout.
-- 
 - Added 72-hour response commitment to DMCA/takedown section.
 
 ### Fixed

@@ -16,7 +16,7 @@ This project is **not affiliated with, endorsed by, sponsored by, or connected t
 
 ## Background
 
-This repository was created by observing how Claude Code behaves in practice and independently writing our own prompt collection. At no point was Anthropic's text copied.
+This repository was created by observing how Claude Code behaves in practice and independently writing our own prompt collection that implements similar patterns. The content here reflects our own engineering judgment informed by publicly observable behavior. At no point was Anthropic's text copied.
 
 ## No Verbatim Reproduction
 
